@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA03AC022FC4017D00FFE12B /* README_CN.md in Resources */ = {isa = PBXBuildFile; fileRef = FA03AC012FC4017800FFE12B /* README_CN.md */; };
 		FA03AC042FC401AB00FFE12B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA03AC032FC401A700FFE12B /* README.md */; };
+		FA03AC062FC40BB800FFE12B /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = FA03AC052FC40BAE00FFE12B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		FA03ABEC2FC3F11300FFE12B /* BarToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA03AC012FC4017800FFE12B /* README_CN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CN.md; sourceTree = "<group>"; };
 		FA03AC032FC401A700FFE12B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA03AC052FC40BAE00FFE12B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -95,6 +97,7 @@
 		FA03ABCB2FC3F11200FFE12B = {
 			isa = PBXGroup;
 			children = (
+				FA03AC052FC40BAE00FFE12B /* .gitignore */,
 				FA03AC032FC401A700FFE12B /* README.md */,
 				FA03AC012FC4017800FFE12B /* README_CN.md */,
 				FA03ABD62FC3F11200FFE12B /* BarTool */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA03AC062FC40BB800FFE12B /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
