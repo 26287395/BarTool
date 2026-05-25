@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA03AC022FC4017D00FFE12B /* README_CN.md in Resources */ = {isa = PBXBuildFile; fileRef = FA03AC012FC4017800FFE12B /* README_CN.md */; };
+		FA03AC042FC401AB00FFE12B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA03AC032FC401A700FFE12B /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA03ABE32FC3F11300FFE12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA03ABCC2FC3F11200FFE12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA03ABD32FC3F11200FFE12B;
+			remoteInfo = BarTool;
+		};
+		FA03ABED2FC3F11300FFE12B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA03ABCC2FC3F11200FFE12B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA03ABD32FC3F11200FFE12B;
+			remoteInfo = BarTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA03ABD42FC3F11200FFE12B /* BarTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA03ABE22FC3F11300FFE12B /* BarToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA03ABEC2FC3F11300FFE12B /* BarToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA03AC012FC4017800FFE12B /* README_CN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CN.md; sourceTree = "<group>"; };
+		FA03AC032FC401A700FFE12B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA03AC002FC3F4F400FFE12B /* Exceptions for "BarTool" folder in "BarTool" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FA03ABD32FC3F11200FFE12B /* BarTool */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA03ABD62FC3F11200FFE12B /* BarTool */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA03AC002FC3F4F400FFE12B /* Exceptions for "BarTool" folder in "BarTool" target */,
+			);
+			path = BarTool;
+			sourceTree = "<group>";
+		};
+		FA03ABE52FC3F11300FFE12B /* BarToolTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BarToolTests;
+			sourceTree = "<group>";
+		};
+		FA03ABEF2FC3F11300FFE12B /* BarToolUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BarToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA03ABD12FC3F11200FFE12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03ABDF2FC3F11300FFE12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03ABE92FC3F11300FFE12B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA03ABCB2FC3F11200FFE12B = {
+			isa = PBXGroup;
+			children = (
+				FA03AC032FC401A700FFE12B /* README.md */,
+				FA03AC012FC4017800FFE12B /* README_CN.md */,
+				FA03ABD62FC3F11200FFE12B /* BarTool */,
+				FA03ABE52FC3F11300FFE12B /* BarToolTests */,
+				FA03ABEF2FC3F11300FFE12B /* BarToolUITests */,
+				FA03ABD52FC3F11200FFE12B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA03ABD52FC3F11200FFE12B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA03ABD42FC3F11200FFE12B /* BarTool.app */,
+				FA03ABE22FC3F11300FFE12B /* BarToolTests.xctest */,
+				FA03ABEC2FC3F11300FFE12B /* BarToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA03ABD32FC3F11200FFE12B /* BarTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA03ABF62FC3F11300FFE12B /* Build configuration list for PBXNativeTarget "BarTool" */;
+			buildPhases = (
+				FA03ABD02FC3F11200FFE12B /* Sources */,
+				FA03ABD12FC3F11200FFE12B /* Frameworks */,
+				FA03ABD22FC3F11200FFE12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA03ABD62FC3F11200FFE12B /* BarTool */,
+			);
+			name = BarTool;
+			packageProductDependencies = (
+			);
+			productName = BarTool;
+			productReference = FA03ABD42FC3F11200FFE12B /* BarTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA03ABE12FC3F11300FFE12B /* BarToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA03ABF92FC3F11300FFE12B /* Build configuration list for PBXNativeTarget "BarToolTests" */;
+			buildPhases = (
+				FA03ABDE2FC3F11300FFE12B /* Sources */,
+				FA03ABDF2FC3F11300FFE12B /* Frameworks */,
+				FA03ABE02FC3F11300FFE12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA03ABE42FC3F11300FFE12B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA03ABE52FC3F11300FFE12B /* BarToolTests */,
+			);
+			name = BarToolTests;
+			packageProductDependencies = (
+			);
+			productName = BarToolTests;
+			productReference = FA03ABE22FC3F11300FFE12B /* BarToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA03ABEB2FC3F11300FFE12B /* BarToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA03ABFC2FC3F11300FFE12B /* Build configuration list for PBXNativeTarget "BarToolUITests" */;
+			buildPhases = (
+				FA03ABE82FC3F11300FFE12B /* Sources */,
+				FA03ABE92FC3F11300FFE12B /* Frameworks */,
+				FA03ABEA2FC3F11300FFE12B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA03ABEE2FC3F11300FFE12B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA03ABEF2FC3F11300FFE12B /* BarToolUITests */,
+			);
+			name = BarToolUITests;
+			packageProductDependencies = (
+			);
+			productName = BarToolUITests;
+			productReference = FA03ABEC2FC3F11300FFE12B /* BarToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA03ABCC2FC3F11200FFE12B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					FA03ABD32FC3F11200FFE12B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FA03ABE12FC3F11300FFE12B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA03ABD32FC3F11200FFE12B;
+					};
+					FA03ABEB2FC3F11300FFE12B = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA03ABD32FC3F11200FFE12B;
+					};
+				};
+			};
+			buildConfigurationList = FA03ABCF2FC3F11200FFE12B /* Build configuration list for PBXProject "BarTool" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA03ABCB2FC3F11200FFE12B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA03ABD52FC3F11200FFE12B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA03ABD32FC3F11200FFE12B /* BarTool */,
+				FA03ABE12FC3F11300FFE12B /* BarToolTests */,
+				FA03ABEB2FC3F11300FFE12B /* BarToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA03ABD22FC3F11200FFE12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA03AC042FC401AB00FFE12B /* README.md in Resources */,
+				FA03AC022FC4017D00FFE12B /* README_CN.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03ABE02FC3F11300FFE12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03ABEA2FC3F11300FFE12B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA03ABD02FC3F11200FFE12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03ABDE2FC3F11300FFE12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA03ABE82FC3F11300FFE12B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA03ABE42FC3F11300FFE12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA03ABD32FC3F11200FFE12B /* BarTool */;
+			targetProxy = FA03ABE32FC3F11300FFE12B /* PBXContainerItemProxy */;
+		};
+		FA03ABEE2FC3F11300FFE12B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA03ABD32FC3F11200FFE12B /* BarTool */;
+			targetProxy = FA03ABED2FC3F11300FFE12B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA03ABF42FC3F11300FFE12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA03ABF52FC3F11300FFE12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FA03ABF72FC3F11300FFE12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BarTool/BarTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarTool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.bartool.BarTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA03ABF82FC3F11300FFE12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BarTool/BarTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarTool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.bartool.BarTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA03ABFA2FC3F11300FFE12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.bartool.BarToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarTool";
+			};
+			name = Debug;
+		};
+		FA03ABFB2FC3F11300FFE12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.bartool.BarToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarTool";
+			};
+			name = Release;
+		};
+		FA03ABFD2FC3F11300FFE12B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.bartool.BarToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BarTool;
+			};
+			name = Debug;
+		};
+		FA03ABFE2FC3F11300FFE12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55VAT4289B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meng.bartool.BarToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BarTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA03ABCF2FC3F11200FFE12B /* Build configuration list for PBXProject "BarTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA03ABF42FC3F11300FFE12B /* Debug */,
+				FA03ABF52FC3F11300FFE12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA03ABF62FC3F11300FFE12B /* Build configuration list for PBXNativeTarget "BarTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA03ABF72FC3F11300FFE12B /* Debug */,
+				FA03ABF82FC3F11300FFE12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA03ABF92FC3F11300FFE12B /* Build configuration list for PBXNativeTarget "BarToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA03ABFA2FC3F11300FFE12B /* Debug */,
+				FA03ABFB2FC3F11300FFE12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA03ABFC2FC3F11300FFE12B /* Build configuration list for PBXNativeTarget "BarToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA03ABFD2FC3F11300FFE12B /* Debug */,
+				FA03ABFE2FC3F11300FFE12B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA03ABCC2FC3F11200FFE12B /* Project object */;
+}
