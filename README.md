@@ -8,6 +8,10 @@
 
 A clean and beautiful macOS menu bar app manager.
 
+## Preview
+
+![BarTool Preview](screenshots/preview.png)
+
 Features:
 
 - View running applications

@@ -4,6 +4,10 @@
 
 简洁、美观的 macOS 菜单栏运行程序管理工具。
 
+## Preview
+
+![BarTool Preview](screenshots/preview.png)
+
 支持：
 
 - 查看当前运行 App
