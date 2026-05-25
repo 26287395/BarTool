@@ -1,9 +1,3 @@
-
----
-
-# README.md（英文）
-
-```markdown
 # BarTool
 
 A clean and beautiful macOS menu bar app manager.
@@ -12,27 +6,6 @@ A clean and beautiful macOS menu bar app manager.
 
 ![BarTool Preview](screenshots/preview.png)
 
-Features:
-
-- View running applications
-- Search apps
-- CPU / Memory monitoring
-- Quick app termination
-- Double-click to activate app
-- Launch at login
-- Hide system processes
-- Hide Apple apps
-- Native menu bar window mode
-
----
-
-# Preview
-
-- Native macOS style
-- Blur / dark translucent UI
-- Retina icon support
-- MenuBarExtra window mode
-
 ---
 
 # Features
@@ -40,9 +13,10 @@ Features:
 ## App Management
 
 - View running applications
+- Search apps
 - Bundle ID display
 - Sort by app name
-- Double-click to activate
+- Double-click to activate app
 - One-click Quit
 
 ---
@@ -78,3 +52,36 @@ Implemented using:
 
 ```swift
 SMAppService.mainApp.register()
+```
+
+---
+
+## UI
+
+- Native macOS style
+- Blur / dark translucent UI
+- Retina icon support
+- MenuBarExtra window mode
+
+---
+
+## Requirements
+
+- macOS 13+
+- Intel / Apple Silicon
+
+---
+
+## Installation
+
+Download the latest release from the Releases page.
+
+---
+
+## Notes
+
+If macOS blocks the app:
+
+1. Right click the app
+2. Click Open
+3. Confirm Open

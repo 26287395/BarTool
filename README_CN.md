@@ -1,6 +1,6 @@
 # BarTool
 
-因为mac菜单栏老是显示不完程序图标，所以让AI写一个
+因为 mac 菜单栏老是显示不完程序图标，所以让 AI 写了一个。
 
 简洁、美观的 macOS 菜单栏运行程序管理工具。
 
@@ -78,3 +78,31 @@
 
 ```swift
 SMAppService.mainApp.register()
+```
+
+---
+
+# 系统要求
+
+- macOS 13+
+- Intel / Apple Silicon
+
+---
+
+# 安装
+
+在 Releases 页面下载最新版本。
+
+---
+
+# 注意
+
+如果 macOS 提示：
+
+“无法验证开发者”
+
+请：
+
+1. 右键 App
+2. 点击“打开”
+3. 再次确认打开
